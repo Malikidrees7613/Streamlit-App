@@ -14,4 +14,4 @@ y_pred = model.predict(x_test)
 accuracy= accuracy_score(y_test,y_pred)
 
 with open('accuracy.txt','w') as file:
-    file.write(f'Accuracy:{accuracy}') 
+    file.write(f'Accuracy: {accuracy}') 

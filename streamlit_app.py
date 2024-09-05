@@ -29,4 +29,5 @@ if st.button("Predict"):
     st.write(f"Prediction: {prediction[0]}")
 
 st.header("Accuracy Plot")
-st.bar_chart([float(accuracy.split(': ')[1])])
+accuracy_value = float(accuracy.split(': ')[1])
+st.bar_chart([accuracy_value])
